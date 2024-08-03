@@ -10,7 +10,7 @@ html, body {
   max-width: 100%;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF;
+  background-color: #434455;
 }
 
 .page-container {
@@ -415,7 +415,6 @@ img.portfolio-photo {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
   max-width: 264px;
   text-align: left;
 }
