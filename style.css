@@ -234,8 +234,6 @@ p.feature-description {
   padding: 120px 156px;
 }
 
-.team-wrap {}
-
 h2.team-title {
   font-size: 36px;
   font-weight: 700;
@@ -244,12 +242,6 @@ h2.team-title {
   color: #2E2F42;
   padding-bottom: 72px;
 }
-
-ul.team-list {}
-
-li.team-member {}
-
-div.team-content {}
 
 div.team-img {
   max-width: 264px;
