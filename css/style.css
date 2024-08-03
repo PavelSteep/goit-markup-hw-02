@@ -10,7 +10,8 @@ html, body {
   max-width: 100%;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
-  background-color: #434455;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
 .page-container {
@@ -66,7 +67,7 @@ button {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
