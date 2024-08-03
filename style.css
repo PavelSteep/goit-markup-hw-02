@@ -325,7 +325,24 @@ h2.portfolio-title {
   margin-bottom: 72px;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-item {
+  width: calc(33.333% - 10px);
+  margin-bottom: 20px;
+}
+
 .portfolio-wrapper-img-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   max-width: 360px;
   height: auto;
   border-width: 0px 1px 1px 1px;
@@ -341,6 +358,7 @@ h2.portfolio-title {
 
 img.portfolio-photo {
   max-width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
