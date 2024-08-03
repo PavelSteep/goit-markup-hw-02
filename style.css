@@ -243,6 +243,35 @@ h2.team-title {
   padding-bottom: 72px;
 }
 
+.team-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.team-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.team-content:hover {
+  box-shadow: 
+    0 2px 1px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16);
+  transform: scale(1.02);
+}
+
+.team-content:hover .team-name,
+.team-content:hover .team-role {
+  color: #007BFF;
+}
+
 div.team-img {
   max-width: 264px;
   max-height: 260px;
@@ -265,6 +294,7 @@ h3.team-name {
   letter-spacing: 0.02em;
   color: #2E2F42;
   padding-bottom: 8px;
+  transition: color 0.3s ease;
 }
 
 p.team-role {
@@ -273,6 +303,7 @@ p.team-role {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 0.3s ease;
 }
 
 /* PORTFOLIO */
