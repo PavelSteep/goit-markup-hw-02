@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-html, body {
+body {
   max-width: 100%;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
@@ -115,7 +115,7 @@ button {
   column-gap: 40px;
 } */
 
-.address-item {
+.address-link {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -124,10 +124,10 @@ button {
   /* transition: color 0.3s; */
 }
 
-/* .address-link:hover,
+.address-link:hover,
 .address-link:focus {
     color: #404bbf;
-} */
+}
 
 /* MAIN */
 .main {
