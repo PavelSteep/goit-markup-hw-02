@@ -29,10 +29,10 @@ body {
   text-align: center;
 }
 
-/* *::before,
+*::before,
 *::after {
   box-sizing: border-box;
-} */
+}
 
 ul {
   list-style: none;
@@ -81,12 +81,12 @@ button {
   color: #2e2f42;
 }
 
-/* .navigation-list {
+/* .nav-list {
   display: flex;
   gap: 40px;
 } */
 
-.navigation-item {
+.nav-item {
   list-style: none;
 }
 
