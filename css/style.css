@@ -292,7 +292,7 @@ img.portfolio-photo {
   text-align: left;
 }
 
-.footer-logo {
+.log {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -300,14 +300,20 @@ img.portfolio-photo {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  max-width: 264px;
+  text-align: left;
 }
 
-.footer-logo-text {
+.log-text {
   color: #f4f4fd;
 }
 
 .footer-paragraph {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: #f4f4fd;
+  margin: 0;
+  text-transform: lowercase;
+  margin-top: 16px;
 }
