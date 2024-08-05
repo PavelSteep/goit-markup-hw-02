@@ -100,8 +100,13 @@ button {
   transition: color 0.3s;
 }
 
-.nav-list li:first-child .nav-link:hover,
-.nav-list li:first-child .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address-item:nth-child(1) .address-link:hover,
+.address-item:nth-child(1) .address-link:focus {
   color: #404bbf;
 }
 
