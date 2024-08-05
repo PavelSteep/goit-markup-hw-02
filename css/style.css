@@ -49,6 +49,7 @@ button {
 
 .nav-item {
   list-style: none;
+  background-color: #FFFFFF;
 }
 
 .nav-link {
@@ -236,6 +237,7 @@ h2.portfolio-title {
 .portfolio-item {
   margin-bottom: 20px;
   overflow: hidden;
+  background-color: #FFFFFF;
 }
 
 .portfolio-wrapper-img-content {
