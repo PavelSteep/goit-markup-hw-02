@@ -47,23 +47,24 @@ button {
   outline: none;
 }
 
-/* MAIN */
-.main {
-  flex-grow: 1;
-  width: 100%;
-  height: auto;
-}
-
 /* HEADER */
 .header {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 20px;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   padding: 24px 141px;
   background-color: #E7E9FC;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -75,19 +76,19 @@ button {
   text-transform: uppercase;
   color:#4d5ae5;
   margin-right: 76px;
-  order: 1;
-  border-bottom: 2px solid #4d5ae5;
 }
 
 .logo-part {
   color: #2e2f42;
 }
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-item {
   list-style: none;
-  background-color: #FFFFFF;
-  position: relative;
-  order: 2;
 }
 
 .nav-link {
@@ -96,6 +97,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  transition: color 0.3s;
 }
 
 .nav-link:hover,
@@ -107,12 +109,20 @@ button {
   font-style: normal;
 }
 
+.address-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
 .address-link {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 0.3s;
 }
 
 .address-link:hover,
@@ -120,7 +130,13 @@ button {
     color: #404bbf;
 }
 
+
 /* MAIN */
+.main {
+  flex-grow: 1;
+  width: 100%;
+  height: auto;
+}
 
 
 /* HERO-SECTION */
