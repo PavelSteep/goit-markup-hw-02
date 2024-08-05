@@ -96,7 +96,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
   transition: color 0.3s;
 }
 
@@ -125,8 +125,8 @@ button {
   transition: color 0.3s;
 }
 
-.address-item:first-child .address-link:hover,
-.address-item:first-child .address-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
