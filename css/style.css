@@ -1,7 +1,7 @@
 /* GENEREL */
 body {
-  max-width: 100%;
-  min-height: 100vh;
+  /* max-width: 100%;
+  min-height: 100vh; */
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #FFFFFF;
@@ -27,7 +27,7 @@ button {
 
 /* HEADER */
 .header {
-  max-width: 100%;
+  /* max-width: 100%; */
   padding: 24px 141px;
   background-color: #E7E9FC;
 }
@@ -86,7 +86,7 @@ button {
 
 /* HERO-SECTION */
 .hero-section {
-  max-width: 100%;
+  /* max-width: 100%; */
   background-color: #2E2F42;
   text-align: center;
   padding: 188px 472px;
@@ -123,7 +123,7 @@ h1.hero-title{
 
 /* FEATURES-SECTION */
 .features-section {
-  max-width: 100%;
+  /* max-width: 100%; */
   background-color:#FFFFFF;
   padding: 120px 156px;
 }
@@ -169,7 +169,7 @@ p.feature-description {
 
 /* TEAM-SECTION */
 .team-section {
-  max-width: 100%;
+  /* max-width: 100%; */
   background-color: #F4F4FD;
   padding: 120px 156px;
 }
@@ -189,15 +189,15 @@ p.feature-description {
   background-color: #FFFFFF;
 }
 
-img.team-photo {
+/* img.team-photo {
   max-width: 100%;
-}
+} */
 
 .team-details {
   padding: 32px 16px;
 }
 
-h3.team-name {
+.team-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -206,7 +206,7 @@ h3.team-name {
   padding-bottom: 8px;
 }
 
-p.team-role {
+.team-role {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -216,7 +216,7 @@ p.team-role {
 
 /* PORTFOLIO */
 .portfolio {
-  max-width: 100%;
+  /* max-width: 100%; */
   background-color: #FFFFFF;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -239,7 +239,7 @@ h2.portfolio-title {
 }
 
 .portfolio-wrapper-img-content {
-  max-width: 360px;
+  /* max-width: 360px; */
   height: auto;
   border-width: 0px 1px 1px 1px;
   border-style: solid;
@@ -247,16 +247,16 @@ h2.portfolio-title {
   margin: 0 auto;
 }
 
-.portfolio-img {
+/* .portfolio-img {
   max-width: 360px;
   min-height: 120px;
-}
+} */
 
-img.portfolio-photo {
+/* img.portfolio-photo {
   max-width: 100%;
   height: auto;
   object-fit: cover;
-}
+} */
 
 .portfolio-img:focus {
   outline: none;
