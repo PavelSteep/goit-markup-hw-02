@@ -143,14 +143,9 @@ button {
 .hero-section {
   width: 100%;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
   background-color: #2E2F42;
   text-align: center;
   padding: 188px 472px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .hero-title{
@@ -186,13 +181,8 @@ button {
 .features-section {
   width: 100%;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
   background-color:#FFFFFF;
   padding: 120px 156px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .features-title {
@@ -208,23 +198,27 @@ button {
   margin-bottom: 32px;
 }
 
-.features-content {
-  text-align: left;
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
-.feature-title {
+.feature-item-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .feature-item {
   text-align: left;
   list-style: none;
-  position: relative;
+  width: calc((100% - 3 * 20px) / 4);
 }
 
 .feature-description {
