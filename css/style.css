@@ -277,25 +277,25 @@ button {
 .team-member:hover .team-role {
   color: #007BFF;
 }
-
+/* 
 .team-img {
   max-width: 264px;
   max-height: 260px;
   object-fit: cover;
   margin: 0 auto;
-}
+} */
 
 .team-photo {
   max-width: 100%;
 }
 
-.team-details {
+/* .team-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 32px 16px;
-}
+} */
 
 .team-name {
   font-size: 20px;
