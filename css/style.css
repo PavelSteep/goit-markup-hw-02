@@ -14,20 +14,20 @@ body {
   background-color: #FFFFFF;
 }
 
-.page-container {
+/* .page-container {
   display: flex;
   flex-direction: column;
   max-width: 100%;
 	height: auto;
-}
+} */
 
-.container {
+/* .container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin:0 auto;
   text-align: center;
-}
+} */
 
 *::before,
 *::after {
