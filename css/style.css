@@ -57,10 +57,6 @@ img {
   margin-right: 76px;
 }
 
-.logo:hover {
-  color: #404bbf;
-}
-
 .logo-part {
   color: #2e2f42;
 }
@@ -80,7 +76,7 @@ img {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .header-address {
