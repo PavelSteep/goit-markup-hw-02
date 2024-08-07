@@ -30,10 +30,6 @@ body {
   color: #2e2f42;
 }
 
-.logo-part:hover {
-  color: #404bbf;
-}
-
 .nav-item {
   list-style: none;
 }
@@ -134,27 +130,10 @@ main {
   padding: 120px 0 120px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  white-space: nowrap;
-  clip: rect(0, 0, 0, 0);
-  clip-path: inset(100%);
-  overflow: hidden;
-}
-
 .features-list {
   margin: 0;
   padding: 0;
 }
-
-/* .feature-item {
-  width: calc((100% - 72px) / 4);
-} */
 
 .feature-item-title {
   font-size: 20px;
