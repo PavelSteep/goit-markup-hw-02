@@ -9,7 +9,7 @@ body {
 
 /* header */
 .header {
-  max-width: 100%;
+  width: 100%;
   padding: 24px 141px;
   background-color: #E7E9FC;
   border-bottom: 1px solid #e7e9fc;
@@ -28,6 +28,10 @@ body {
 
 .logo-part {
   color: #2e2f42;
+}
+
+.logo-part:hover {
+  color: #404bbf;
 }
 
 .nav-item {
