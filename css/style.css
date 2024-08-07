@@ -43,7 +43,9 @@ body {
   padding: 24px 0;
 }
 
-.nav-link:hover,
+.nav-link:hover {
+  color: #404bbf;
+}
 .nav-link:focus {
   color: #404bbf;
 }
