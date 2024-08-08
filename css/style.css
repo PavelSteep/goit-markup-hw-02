@@ -46,9 +46,9 @@ body {
   color: #404bbf;
 }
 
-/* .header-address {
+.header-address {
   font-style: normal;
-} */
+}
 
 /* .address-item {
   margin-right: 40px;
@@ -58,18 +58,18 @@ body {
   margin-right: 0;
 } */
 
-/* .address-link {
+.address-link {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-} */
+}
 
-/* .address-link:hover,
+.address-link:hover,
 .address-link:focus {
     color: #404bbf;
-} */
+}
 
 /* main */
 main {
