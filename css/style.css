@@ -24,8 +24,16 @@ body {
   margin-right: 76px;
 }
 
+.logo:hover {
+  color: #404bbf;
+}
+
 .logo-part {
   color: #2e2f42;
+}
+
+.nav-item {
+  color: #404bbf;
 }
 
 /* .nav-item {
