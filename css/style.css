@@ -6,14 +6,14 @@ body {
 }
 
 /* header */
-.header {
+/* .header {
   width: 100%;
   padding: 24px 141px;
   background-color: #E7E9FC;
   border-bottom: 1px solid #e7e9fc;
-}
+} */
 
-.logo {
+/* .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -22,54 +22,54 @@ body {
   text-transform: uppercase;
   color:#4d5ae5;
   margin-right: 76px;
-}
+} */
 
-.logo-part {
+/* .logo-part {
   color: #2e2f42;
-}
+} */
 
-.nav-item {
+/* .nav-item {
   list-style: none;
-}
+} */
 
-.nav-link {
+/* .nav-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
-}
+} */
 
-.nav-link:hover,
+/* .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
-}
+} */
 
-.header-address {
+/* .header-address {
   font-style: normal;
-}
+} */
 
-.address-item {
+/* .address-item {
   margin-right: 40px;
-}
+} */
 
-.address-item:last-child {
+/* .address-item:last-child {
   margin-right: 0;
-}
+} */
 
-.address-link {
+/* .address-link {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
+} */
 
-.address-link:hover,
+/* .address-link:hover,
 .address-link:focus {
     color: #404bbf;
-}
+} */
 
 /* main */
 main {
